@@ -92,7 +92,7 @@ divider = '------------------------------------'
 runTotal = 100
 threads = 1
 
-model= "tom_dpu_compiled_0.xmodel"
+model= "similar_cmpld_0.xmodel"
 out_q = [None] * runTotal
 g = xir.Graph.deserialize(model)
 subgraphs = get_child_subgraph_dpu(g)
